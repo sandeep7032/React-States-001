@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin-top: 35px;
+}
+
+.light {
+  background-color: white;
+}
+
+.dark > h1 {
+  color: #fbfbfb;
+}
+
+.dark > .cardH1 {
+  color: #fea7c4;
+}
+
+.dark > .cardSpan {
+  color: #b7c5c9;
+}
+
+.dark > .cardH5 {
+  color: #b7c5c9;
+}
+
+.dark {
+  background-color: #282c35;
+}
+
+.mainComp {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.cardH1 {
+  color: #d9386c;
+}
+
+.dark > .btn {
+  background-color: #fea7c4;
+  color: #282c35;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: inline-block;
+}
+
+.header {
+  display: flex;
+  gap: 50%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btn {
+  padding: 0.3rem 0.3rem;
+  border-radius: 10px;
+  border: solid 1px gray;
+  background-color: #d9386c;
+  color: #ffffff;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
